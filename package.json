@@ -1,0 +1,19 @@
+{
+  "name": "pdf-redact",
+  "version": "0.1.0",
+  "description": "Remove text from a PDF instead of drawing a box over it.",
+  "type": "module",
+  "main": "src/redact.ts",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "fflate": "^0.8.2"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.9",
+    "typescript": "^5.6.0"
+  },
+  "license": "AGPL-3.0-or-later"
+}
